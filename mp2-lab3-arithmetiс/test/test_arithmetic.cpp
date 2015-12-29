@@ -27,7 +27,7 @@ TEST(arithmetic, throws_when_input_invalid) {
   EXPECT_ANY_THROW(arithmetic::arithmetic_notation(str1));
 }
 
-TEST(arithmetic, throws_when_try_convert_empty_wtring) {
+TEST(arithmetic, throws_when_try_convert_empty_writing) {
   string str1 = "";
   EXPECT_ANY_THROW(arithmetic::arithmetic_notation(str1));
 }
